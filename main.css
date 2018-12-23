@@ -3,19 +3,29 @@
     padding: 0px;
 }
 
-ul {
-    background-color: yellow;
+ul.menu {
+    width: 100%;
 }
 
-ul li {
+ul.menu li {
     font-size: 2em;
-    padding: 3px 0 0 10px;
-    border-top:thick solid black;
-    border-right:thick solid black;
-    border-left:thick solid black;
-    /* text-align: center; */
+    font-family: Helvetica;
+    font-style: oblique;
+    margin: 5px;
+    padding: 0 20px 0 20px;
+    display: inline-block;
+    border-bottom:thick solid black;
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+ul.menu li a {
+    text-decoration: none;
+    color: hotpink;
+}
+ul.menu li a:hover {
+    color: palevioletred;
 }
 
-ul li:last-child {
-    border-bottom: thick solid black;
-}
+/* ul.menu li:nth-child(2) {
+    visibility: hidden;
+} */
