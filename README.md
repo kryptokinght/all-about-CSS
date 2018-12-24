@@ -39,7 +39,7 @@ The display property deals with how the elements are laid out on the page - are 
 Specifies wether the boxes will be rendered or not, though it still affects the layout of the page even if the boxes are not rendered.
     Eg: `visiblity: hidden;`
 
-## Fonts
+## Fonts & Texts
 The different categories of fonts are:
 1. serif
 2. sans-serif
@@ -68,3 +68,58 @@ The different font properties are:
 *   vertical-align
 *   text-decoration
 
+## CSS Layout
+
+### Position
+*   static(default)
+*   relative
+*   absolute
+*   fixed
+  
+### top, right, bottom, left
+Move the HTML element relative to its position set by the `position` property.
+Eg: 
+```(css)
+position: relative;
+top: 20px;
+right: 20px;
+```
+### Floating and Clearing
+
+
+## Flexbox - A better way to CSS positioning
+* **Main axis** - goes from left to right
+* **Main start** - left
+* **Main end** - right
+* **Main size** - length from left to right
+* **Cross axis** - goes from top to bottom
+* **Cross start** - top
+* **Cross end** - bottom
+* **Cross size** - length from top to bottom
+
+### Flexiblity
+
+
+### Alignment
+justify-content, align-items, align-content, align-self(individual flex items)
+
+**justofy-content** align items along the *main-axis*. So if the main-axis is set to column using `flex-direction: column;` then the main-axis is replaced by cross-axis. Its different values are:
+* flex-start   
+* flex-end   
+* space-around   
+* space-between
+* space-equally
+* center   
+  
+**align-items** aligns the items along the *cross-axis*. Its values are:
+* stretch
+* flex-start
+* flex-end
+* center
+* stretch
+  
+**align-self** is used to align individual flex items along the axis. Its values similar to *align-items*.
+
+**align-content** is used when `flex-wrap` is set to **wrap**. This means the flex items are distributed in multiple lines. *align-content* aligns the items along the cross axis and its values are similar to *justify-content*.  
+
+## CSS-Grid

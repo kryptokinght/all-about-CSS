@@ -1,0 +1,27 @@
+{
+  "name": "all-about-css",
+  "version": "1.0.0",
+  "description": "A curated list of **CSS** topics which you often forget about **CSS** if you are not a seasoned frontend web developer. Read this article at least once or twice every week for two to three months and your CSS will be suercharged. :smile: :relaxed:",
+  "main": "droppable.es5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryptokinght/all-about-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kryptokinght/all-about-CSS/issues"
+  },
+  "homepage": "https://github.com/kryptokinght/all-about-CSS#readme",
+  "devDependencies": {
+    "@webpack-cli/init": "^0.1.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "droppable": "^2.1.3"
+  }
+}
